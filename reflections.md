@@ -21,7 +21,7 @@ Approaching this take-home assignment, my primary focus was on creating educatio
 
 9. **Pedagogical Decisions:** I opted for a structured approach, organizing the article around the OSI model to provide a systematic overview of network infrastructure security risks. Breaking down each risk into sections with descriptions, potential impacts, and examples aimed to enhance comprehension and facilitate learning.
 
-10. **Coding Examples:** In response to the request for code examples, I provided scripts that simulate scenarios related to the discussed risks in a controlled and ethical manner. These scripts aim to demonstrate the practical implications of unsecured network devices and inadequate network segmentation, while emphasizing the importance of proper security measures.
+10. **Coding Examples:** In response to the request for code examples, I provided psuedo codes that simulate scenarios related to the discussed risks in a controlled and ethical manner. These aim to demonstrate the practical implications of discussed, while emphasizing the importance of proper security measures.
 
 11. **Ethical Considerations:** Throughout the process, I prioritized ethical considerations, emphasizing the importance of obtaining explicit permission before conducting any network scans or accessing devices. I aimed to convey the message that while understanding security risks is essential, ethical behavior and respect for privacy and legality are paramount.
 
