@@ -8,15 +8,13 @@ Approaching this take-home assignment, my primary focus was on creating educatio
 6. **Additional Improvements:** If I had more time, I would expand on each risk with more in-depth explanations and provide additional real-world examples to further illustrate the potential impact of each risk. I would also explore including mitigation strategies for each risk to offer actionable insights for readers.
 7. **Use of Generative AI Tool:** I used the ChatGPT to assist in generating the content for the article. I provided prompts related to each section of the article, such as descriptions of common security risks in network infrastructure and potential impacts. The responses from the model provided a foundation that I then refined and tailored to fit the specific requirements and style of the article. I chose to use the tool to help generate initial ideas and streamline the writing process while ensuring that the content remained accurate and informative.    
 
-```
-    i. **Prompt Provided:** I provided prompts related to each section of the article, such as "Common security risks associated with network infrastructure" and "Examples of real-world scenarios."
+    i. *Prompt Provided*: I provided prompts related to each section of the article, such as "Common security risks associated with network infrastructure" and "Examples of real-world scenarios."
     
-    ii. **Responses Received:** ChatGPT provided suggestions and examples based on the prompts, helping to generate content for the article.
+    ii. *Responses Received*: ChatGPT provided suggestions and examples based on the prompts, helping to generate content for the article.
     
-    iii. **Distinct Changes:** I reviewed the responses from ChatGPT and refined them to ensure they aligned with the tone, structure, and accuracy I wanted for the article. This included clarifying technical details, adjusting examples to be more relevant, and ensuring coherence with the overall narrative.
+    iii. *Distinct Changes*: I reviewed the responses from ChatGPT and refined them to ensure they aligned with the tone, structure, and accuracy I wanted for the article. This included clarifying technical details, adjusting examples to be more relevant, and ensuring coherence with the overall narrative.
     
-    iv. **Reason for Use:** I chose to use ChatGPT to leverage its natural language generation capabilities and assist in generating content efficiently. While I provided the initial prompts and guidance, ChatGPT helped streamline the writing process by offering suggestions and alternative phrasing. However, I made sure to review and refine the generated content to ensure it met the requirements and standards of the assignment.
-```
+    iv. *Reason for Use*: I chose to use ChatGPT to leverage its natural language generation capabilities and assist in generating content efficiently. While I provided the initial prompts and guidance, ChatGPT helped streamline the writing process by offering suggestions and alternative phrasing. However, I made sure to review and refine the generated content to ensure it met the requirements and standards of the assignment.
 
 8. **Choosing Relevant Risks:** I selected common security risks in network infrastructure that are widely applicable and pertinent to the audience. These risks, such as unsecured network devices and inadequate network segmentation, are fundamental concepts that IT professionals should be aware of to enhance their cybersecurity posture.
 
