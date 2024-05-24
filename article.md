@@ -85,8 +85,7 @@ main()
 ```
 
 #### Explanation:
-
- - Tools are initialized for network scanning and configuration management.
+- Tools are initialized for network scanning and configuration management.
 - A network range, `192.168.0.0/24`, is specified for scanning IP addresses.
 - The process identifies unsecured devices by scanning the network and checking their configurations.
 - Devices are deemed unsecured if they use default credentials, have outdated firmware, or lack encryption.
@@ -126,12 +125,86 @@ DDoS attacks flood networks with internet traffic, rendering services unavailabl
 
 ![Pasted image 20240524130457](https://github.com/NucleiAv/codecademy/assets/105632119/3db35bf3-c76c-406c-bf4d-0a0b6e16f207)
 
+#### Pseudo Code for DDoS
+```
+function DDoS_Attack(target_IP, num_attackers):
+    for attacker in range(num_attackers):
+        start_attack_thread(target_IP)
+
+function start_attack_thread(target_IP):
+    while True:
+        send_request(target_IP)
+
+function send_request(target_IP):
+    // Craft a request packet (e.g., SYN flood for TCP)
+    packet = craft_packet()
+    
+    // Send the packet to the target IP address
+    send_packet(packet, target_IP)
+
+function craft_packet():
+    // Create a malicious packet with spoofed source IP addresses
+    // to make it difficult to trace back to the real attackers
+    // (e.g., SYN packet with random source IP and port)
+
+function send_packet(packet, target_IP):
+    // Send the packet to the target IP address using raw sockets
+    // (e.g., using Python's socket library)
+```
+#### Explanation
+- **DDoS_Attack:**
+  - Initiates attack by spawning multiple threads.
+  - Each thread sends requests to target IP.
+
+- **start_attack_thread:**
+  - Represents individual attacker thread.
+  - Continuously sends requests to target IP.
+
+- **send_request:**
+  - Crafts and sends malicious request packet.
+  - May contain spoofed source IP addresses.
+
+- **craft_packet:**
+  - Generates malicious packet (e.g., SYN flood).
+  - Aims to overwhelm target's resources.
+
+- **send_packet:**
+  - Sends crafted packet using raw sockets.
+  - Allows manipulation of network packets directly.
 
 ### 8. Man-in-the-Middle (MitM) Attacks
 
 MitM attacks involve intercepting and altering communication between two parties without their knowledge. This can lead to the theft of sensitive information and the injection of malicious content. For example, an attacker sets up a rogue Wi-Fi hotspot, intercepting and modifying communications from unsuspecting users to capture sensitive data.
 
 ![Pasted image 20240524130534](https://github.com/NucleiAv/codecademy/assets/105632119/96772298-eb4e-4d58-9956-7f446057e407)
+
+#### Pseudo Code/Steps for MitM
+```
+1. Begin MITM Attack
+
+2. Initialize:
+    - Attacker's Machine (A)
+    - Victim's Machine (V)
+    - Legitimate Server (S)
+
+3. ARP Spoofing:
+    - A sends ARP packets to V and S, claiming to be the other party
+    - V and S update their ARP tables, associating A's MAC address with the IP address of the other party
+
+4. Intercept Traffic:
+    - A intercepts communication between V and S
+    - A captures packets passing between V and S
+
+5. Relay Packets:
+    - A forwards packets from V to S and vice versa, acting as a "middleman" in the communication
+
+6. Eavesdrop or Modify:
+    - A can eavesdrop on the communication between V and S to steal sensitive information
+    - A can modify the content of packets before relaying them, potentially injecting malicious code or altering data
+
+7. End MITM Attack
+```
+
 
 **Assessment 8: Q. Define DDoS and MitM.**
 
