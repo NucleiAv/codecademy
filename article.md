@@ -5,9 +5,10 @@ In the modern interconnected landscape, an organization's IT operations heavily 
 ### Understanding the OSI Model: A Basic Overview
 
 The OSI model is a conceptual framework for network communications, comprising seven layers with specific functions and protocols. It aids in standardizing networking protocols, promoting interoperability between different systems and software, regardless of their internal structures and technologies.
-![[Pasted image 20240524124658.png]]
+![Pasted image 20240524122957](https://github.com/NucleiAv/codecademy/assets/105632119/0fb80a6d-f552-4812-b658-71a15ac48f81)
 
-![[Pasted image 20240524122957.png]]
+![Pasted image 20240524124658](https://github.com/NucleiAv/codecademy/assets/105632119/00b9c9d8-82a4-4c05-b6d8-41bd95395128)
+
 
 ## Common Security Risks & Attacks
 ### 1. Unsecured Network Devices
@@ -109,13 +110,15 @@ Unauthorized access to network resources poses significant risks, often facilita
 
 DDoS attacks flood networks with internet traffic, rendering services unavailable to legitimate users. This can lead to significant downtime, lost revenue, and damage to reputation. In 2016, the Dyn DNS provider experienced a massive DDoS attack, disrupting major websites like Twitter and Netflix. This incident, caused by the Mirai botnet, showcased the destructive potential of DDoS attacks on network infrastructure.
 
-![[Pasted image 20240524130457.png]]
+![Pasted image 20240524130457](https://github.com/NucleiAv/codecademy/assets/105632119/3db35bf3-c76c-406c-bf4d-0a0b6e16f207)
+
 
 ### 8. Man-in-the-Middle (MitM) Attacks
 
 MitM attacks involve intercepting and altering communication between two parties without their knowledge. This can lead to the theft of sensitive information and the injection of malicious content. For example, an attacker sets up a rogue Wi-Fi hotspot, intercepting and modifying communications from unsuspecting users to capture sensitive data.
 
-![[Pasted image 20240524130534.png]]
+![Pasted image 20240524130534](https://github.com/NucleiAv/codecademy/assets/105632119/96772298-eb4e-4d58-9956-7f446057e407)
+
 
 ### 9. Insider Threats
 
