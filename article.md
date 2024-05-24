@@ -10,7 +10,7 @@ The OSI model is a conceptual framework for network communications, comprising s
 ![Pasted image 20240524124658](https://github.com/NucleiAv/codecademy/assets/105632119/00b9c9d8-82a4-4c05-b6d8-41bd95395128)
 
 
-**Assessment 1: Q. Which is the transmits data using TCP and/or UDP?**
+**Assessment 1: Q. Which layer transmits data using TCP and/or UDP?**
 
 **Assessment 2: Q. Which is the first and last layer in OSI Model?**
 
