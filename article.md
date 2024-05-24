@@ -10,6 +10,10 @@ The OSI model is a conceptual framework for network communications, comprising s
 ![Pasted image 20240524124658](https://github.com/NucleiAv/codecademy/assets/105632119/00b9c9d8-82a4-4c05-b6d8-41bd95395128)
 
 
+**Assessment 1: Q. Which is the transmits data using TCP and/or UDP?**
+
+**Assessment 2: Q. Which is the first and last layer in OSI Model?**
+
 ## Common Security Risks & Attacks
 ### 1. Unsecured Network Devices
 
@@ -90,13 +94,21 @@ main()
 - Actions taken to secure devices are logged.
 - The main process executes, identifying and securing unsecured devices while logging the results.
 
+**Assessment 3: Q. What are the default credentials of network device?**
+
+**Assessment 4: Q. What are the parameters for a device to be deemed insecure?**
+
 ### 3. Vulnerable Network Services and Protocols
 
 Many network services and protocols, such as Telnet, FTP, and outdated versions of SNMP, are inherently vulnerable and can expose networks to attacks like eavesdropping and unauthorized access. Exploiting these vulnerabilities can allow attackers to capture sensitive information, gain unauthorized access, or disrupt network services, leading to significant operational and reputational damage. For instance, an organization using Telnet for remote network management might find that an attacker intercepts Telnet sessions, captures login credentials, and gains control of critical network infrastructure, thereby disrupting business operations.
 
+**Assessment 5: Q. Find the fullforms and functions of TelNet, FTP and SNMP?**
+
 ### 4. Poor Patch Management
 
 Regularly updating and patching network devices and software is essential to address security vulnerabilities effectively. Failure to do so can leave networks vulnerable to known exploits, making them easy targets for attackers. Exploiting these vulnerabilities can result in data breaches, malware infections, and the loss of sensitive information. For instance, the Equifax data breach in 2017, affecting 147 million individuals, was attributed to the exploitation of a known vulnerability in the Apache Struts web application framework. Despite a patch being available, it was not applied promptly, highlighting the critical importance of keeping systems up-to-date.
+
+**Assessment 6: Q. What can Poor Patch Management lead to?**
 
 ### 5. Insecure Remote Access
 
@@ -105,6 +117,8 @@ The need for secure remote access to networks has surged with the rise of remote
 ### 6. Unauthorized Access
 
 Unauthorized access to network resources poses significant risks, often facilitated by weak passwords, unpatched vulnerabilities, or social engineering. The potential impact ranges from data breaches to complete system compromise, serving as a foothold for further attacks. For instance, an attacker exploiting a weak password on a company's VPN can navigate the internal network, accessing confidential data and potentially deploying ransomware.
+
+**Assessment 7: Q. A advisory remotely accesses a network. This comes under - Insecure Remote Access / Unauthorized Access / Both ?**
 
 ### 7. Distributed Denial of Service (DDoS) Attacks
 
@@ -119,11 +133,17 @@ MitM attacks involve intercepting and altering communication between two parties
 
 ![Pasted image 20240524130534](https://github.com/NucleiAv/codecademy/assets/105632119/96772298-eb4e-4d58-9956-7f446057e407)
 
+**Assessment 8: Q. Define DDoS and MitM.**
 
 ### 9. Insider Threats
 
 Insider threats stem from individuals within an organization misusing their access to harm the network, whether intentionally or unintentionally. These threats, often leveraging trusted access, can lead to severe consequences like data breaches and financial loss. For example, a disgruntled employee with administrative privileges might intentionally delete critical files, while another employee might inadvertently share confidential information, both scenarios resulting in significant damage to the organization.
+
+**Assessment 9: Q. What is the main cause of insider threats?**
+
 ### Conclusion
 
 Understanding and mitigating network infrastructure risks is crucial for strong cybersecurity. Securing devices, implementing segmentation, using secure protocols, patch management, and ensuring secure remote access are key. Regular audits and staying updated on security trends are vital in the evolving network security landscape.
 For more dive-diving into Wifi Hacking, I have written a complete handbook for the same at Medium.
+
+**Assessment 10: Rate the article and Provide Feedback.**
